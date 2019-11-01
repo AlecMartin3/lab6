@@ -45,7 +45,7 @@ int main() {
                 cout << "Choose again.\n";
                 cin >> choice;
                 cin.clear();
-                cin.ignore(INT_MAX);
+                cin.ignore(INT_MAX, '\n');
                 break;
         }
 
